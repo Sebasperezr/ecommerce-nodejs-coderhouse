@@ -1,5 +1,5 @@
-const fs = require("fs");
- export class ProductManager {
+import fs from "fs";
+class ProductManager {
   #path;
   
 
@@ -50,7 +50,7 @@ const fs = require("fs");
 
   async getProductById(idProdut) {
     const products = await this.getProducts();
-    const product = products.find((item) => item.id === idProdut);
+    const product = products.find((item) =>  item.id == idProdut);
     if (!product) throw new Error(`Not found`);
     return product;
   }
@@ -73,3 +73,6 @@ const fs = require("fs");
   }
 }
 
+ 
+
+export default ProductManager;

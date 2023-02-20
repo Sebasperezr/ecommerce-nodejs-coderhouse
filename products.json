@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Colombiana",
+        "description": "350ML",
+        "price": "3000",
+        "thumbnail": "imagen/colombiana.jpg",
+        "code": "G111",
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "title": "Manzana",
+        "description": "1.5 L",
+        "price": "7000",
+        "thumbnail": "imagen/manzana.jpg",
+        "code": "G110",
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "title": "Pepsi",
+        "description": "350ML",
+        "price": "3000",
+        "thumbnail": "imagen/pepsi.jpg",
+        "code": "G115",
+        "stock": 15
+    }
+]

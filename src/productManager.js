@@ -50,8 +50,8 @@ class ProductManager {
 
   async getProductById(idProdut) {
     const products = await this.getProducts();
-    const product = products.find((item) =>  item.id == idProdut);
-    if (!product) throw new Error(`Not found`);
+    const product = products.find((item) =>  parseInt(item.id) === parseInt(idProdut));
+    if (!product) return {} ;
     return product;
   }
 
